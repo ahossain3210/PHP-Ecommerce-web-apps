@@ -13,6 +13,9 @@ if(isset($_POST['update']))
     $obj_cart->update_cart($_POST);
 }
 
+// ..........Update Cart End ..............
+
+
 //..........Delete Cart..........
 
 if (isset($_GET['status'])) {
